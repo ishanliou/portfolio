@@ -20,7 +20,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 480px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,4 +54,23 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.center, .center-align {
+  text-align: left;
+}
+
+@media only screen and (min-width: 601px){
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 150px;
+    line-height: 150px;
+}
+}
+
+.teal{
+  background-color: #58A1AD !important;
+}
+
+.brand-logo{
+  padding: 24px 0 0 0 !important;
 }
