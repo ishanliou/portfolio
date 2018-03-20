@@ -27,6 +27,7 @@ p {
 }
   .parallax-container .section {
     width: 100%;
+    overflow: auto;
   }
 
 @media only screen and (max-width : 992px) {
@@ -95,7 +96,6 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 }
 
 .language_row{
-  margin-bottom: 200px;
   margin-top: 40px;
 }
 
@@ -117,3 +117,74 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 .socicon-github{
   content: "\e032";
 }
+
+.nav-list{
+  width: 306px;
+  margin: 0 auto;
+}
+
+.section{
+  margin: 100px 0px 100px 0px;
+}
+
+.section-title{
+  font-size: 30px;
+  text-align: center;
+}
+
+/* nav */
+
+.header{
+  width: 100vw;
+  height: 80px;
+}
+
+.nav-list{
+  width: 100%;
+}
+
+.nav-list li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+
+.nav-list li a{
+  color: #58A1AD;
+}
+
+.material-icons{
+  line-height: 80px !important;
+}
+
+/* nav */
+
+/* --- profile --- */
+#about{
+  overflow: auto;
+  /*margin: 100px 0px 100px 0px;*/
+}
+#profile-photo{
+  float: left;
+  margin: 0px 36px 0px 0px;
+}
+#profile-bio{
+  font-size: 18px;
+}
+/* --- profile --- */
+
+.project-title{
+  margin: 0px 0px 12px 0px;
+  padding: 0px 0px 0px 0px !important;
+}
+
+h5{
+  font-weight: 500;
+}
+
+a{
+  color: #58A1AD;
+}
+
